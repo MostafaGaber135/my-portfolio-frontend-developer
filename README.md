@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌌 Mostafa Gaber Ahmed — Portfolio
 
-## Getting Started
+Modern, fast, and responsive developer portfolio built with **Next.js 15**, **Tailwind CSS**, and **Framer Motion** — featuring a fixed left sidebar, smooth section navigation, animated content, and clean typography.
 
-First, run the development server:
+[![Next.js](https://img.shields.io/badge/Next.js-15-black?logo=nextdotjs)](https://nextjs.org/)
+[![Tailwind](https://img.shields.io/badge/Tailwind_CSS-0ea5e9?logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
+[![Framer Motion](https://img.shields.io/badge/Framer%20Motion-6A67F2?logo=framer&logoColor=white)](https://www.framer.com/motion/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178c6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Vercel](https://img.shields.io/badge/Deploy%20on-Vercel-000?logo=vercel)](https://vercel.com)
+
+---
+
+## 🔗 Links
+
+- **Live Demo:** https://my-portfolio-frontend-developer.vercel.app/
+- **GitHub Repo:** https://github.com/MostafaGaber135/my-portfolio-frontend-developer.git
+
+---
+
+## ✨ Features
+
+- Fixed **left sidebar** (desktop) + **mobile drawer**
+- Smooth scroll + precise **active section** highlighting
+- Clean, responsive layout with **dark UI** `#0a0a0a`
+- Polished **animations** (About / Experience / Projects / Skills / Contact)
+- **React Icons** + optional magnetic-like hover for buttons
+- TypeScript & ESLint-ready
+
+---
+
+## 🧱 Tech Stack
+
+- **Next.js 15.5.4**
+- **Tailwind CSS**
+- **Framer Motion**
+- **TypeScript**
+- **React Icons**
+
+---
+
+## 🚀 Getting Started
 
 ```bash
+# Clone
+git clone https://github.com/MostafaGaber135/my-portfolio-frontend-developer.git
+cd my-portfolio-frontend-developer
+
+# Install
+npm i
+
+# Dev
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+# http://localhost:3000
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Build
+npm run build
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# Preview production
+npm run start
