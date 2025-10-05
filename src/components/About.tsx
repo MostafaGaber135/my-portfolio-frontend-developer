@@ -41,9 +41,9 @@ export default function About() {
 
         <motion.p variants={item}>
           Passionate about building responsive, accessible, and maintainable web
-          applications. Currently working as a{" "}
-          <strong className="text-white">Front-end and Cross-Platform Mobile Developer</strong>{" "}
-          at ITI, where I develop modern web solutions using cutting-edge technologies.
+          applications. Completed a{" "}
+          <strong className="text-white">Front-end and Cross-Platform Mobile Development</strong>{" "}
+          training program at ITI, gaining hands-on experience building modern, responsive web solutions.
         </motion.p>
 
         <motion.p variants={item}>
